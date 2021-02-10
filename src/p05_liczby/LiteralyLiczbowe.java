@@ -45,8 +45,9 @@ public class LiteralyLiczbowe {
 		double dd = 10__00;
 		dd = 3.14; // literał liczbowy z częścią ułamkową jest typu double (a nie float)
 		dd = 1_00.0__0;
-		//dd = 100._9;
-		//dd = 100_.9;
+//		dd = 100._9;
+//		dd = 100_.9;
+//		dd = 1.41_e5;
 		
 		dd = 100.99d;
 		//dd = 100.99_f;
