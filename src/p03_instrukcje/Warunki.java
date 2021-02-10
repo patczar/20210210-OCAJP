@@ -53,6 +53,10 @@ public class Warunki {
 //		if(liczba) {
 //			System.out.println("Nie zero");
 //		}
+		// Typowy błąd w języku C, w Javie się nie skompiluje
+//		if(liczba = 100) {
+//
+//		}
 
 		boolean logika = liczba > 100 && liczba % 3 == 0;
 		if (logika) {
@@ -60,7 +64,8 @@ public class Warunki {
 		} else {
 			System.out.println("Nieprawda");
 		}
-		
+
+		// To jest przypisanie, a nie porównanie, wartość zmiennej ulega zmianie.
 		if(logika = false) {
 			System.out.println("Bzdura");  //nigdy się nie wypisze
 		}
