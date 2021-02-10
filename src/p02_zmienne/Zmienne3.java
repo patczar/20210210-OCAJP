@@ -9,7 +9,6 @@ public class Zmienne3 {
 	// zmienna instancyjna (inaczej: pole, atrybut) należy do obiektu
 	// Każdy obiekt tej klasy, w której jesteśmy, będzie posiadał taką zmienną
 	int instancyjna = 20;
-	
 
 	public static void main(String[] args) {
 		// zmienna lokalna, czyli deklarowana w obrębie metody
@@ -57,7 +56,5 @@ public class Zmienne3 {
 		System.out.println("parametr: " + parametr);
 		System.out.println();
 	}
-	
-	
 
 }
