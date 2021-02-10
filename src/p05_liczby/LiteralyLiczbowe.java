@@ -27,7 +27,11 @@ public class LiteralyLiczbowe {
 		
 		//NK long l = 4000000000; // wartość nie mieszcząca się w int
 		long l = 4000000000L; // OK
-		
+
+		long l2 = 300; // jeśli mieści się w zakresie in, to ok
+		long l3 = 3L; // też OK
+		//NK int i3 = 3L;
+
 		// int _1000 = 1313;
 		
 		// x = _1000;  // odwołanie do zmiennej :)
@@ -67,6 +71,7 @@ public class LiteralyLiczbowe {
 		f = 3.14F;
 		f = 1.0f;
 		f = 3f;
+		f = 3;
 		f = 1.13e2F;
 		f = (float)3.14; // kompiluje się, ale niezalecane, bo można zgubić precyzję
 		System.out.println(f);
