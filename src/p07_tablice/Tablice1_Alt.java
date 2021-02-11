@@ -2,7 +2,7 @@ package p07_tablice;
 
 import java.util.Arrays;
 
-public class Tablice1 {
+public class Tablice1_Alt {
 
 	public static void main(String[] args) {
 		
