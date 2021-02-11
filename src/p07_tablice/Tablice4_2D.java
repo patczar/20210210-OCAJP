@@ -16,7 +16,8 @@ public class Tablice4_2D {
 		// regularna macierz
 		a[0][4] = 44;
 		a[1][2] = 22;
-		
+		(a[1])[3] = 33;
+
 		System.out.println(a[0][4]);
 		System.out.println("a: " + a + " , zawartość: " + Arrays.toString(a));
 		System.out.println("a[0]: " + a[0]+ " , zawartość: " + Arrays.toString(a[0]));
