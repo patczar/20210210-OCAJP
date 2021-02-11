@@ -34,6 +34,8 @@ public class Student extends Osoba {
 
     // 3) podklasa może też "nadpisać" ("override") definicję metody, która była obecna w nadklasie
     // wtedy "studenci zachowują się inaczej niż pozostałe osoby"
+	// @Override nie zmienia działania; także bez niego doszłoby do nadpisania metody
+	// @Override: zwiększa czytelność, kontroluje na etapie kompilacji czy naprawdę nadpisujemy
 	@Override
 	void przedstawSie() {
 		System.out.println("Jestem " + imie + " " + nazwisko + " i studiuję na "+ rok + " roku kierunku " + kierunek +".");

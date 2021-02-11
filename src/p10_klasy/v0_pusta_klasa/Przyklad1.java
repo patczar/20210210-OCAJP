@@ -23,6 +23,7 @@ public class Przyklad1 {
         // Na zmienną typu obiektowego można też wpisać wartość null - "brak obiektu".
         Osoba c = null;
         System.out.println(c);
+        // System.out.println(c.hashCode()); // NPE
 
         // Każda klasa jest podklasą klasy Object, więc każdy obiekt można wpisać na zmienną typu Object.
         Object x = a;

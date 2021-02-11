@@ -10,6 +10,11 @@ public class PrzykladStudent {
         System.out.println(osoba);
         osoba.przedstawSie();
         Sklep.sprzedajPiwo(osoba);
+
+        // Osoba nie posiada elementów "studenckich"
+//        osoba.rok = 1;
+//        osoba.dodajOcene(4);
+
         System.out.println();
 
 
@@ -47,7 +52,7 @@ public class PrzykladStudent {
 
         // Z nadklasy nie są dziedziczone konstruktory
         Osoba osoba2 = new Osoba("Ola", "Malinowska", 40);
-        //NK Student student2 = new Student("Jan", "Kowalski", 22);
+        // Student student2 = new Student("Jan", "Kowalski", 22);
 
         Student student3 = new Student("Jan", "Kowalski", 22, 3, "geologia");
         student3.przedstawSie();

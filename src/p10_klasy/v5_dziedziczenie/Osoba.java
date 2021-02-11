@@ -15,7 +15,6 @@ public class Osoba {
         this.nazwisko = nazwisko;
         this.wiek = wiek;
     }
-    // w klasie może być wiele konstruktorów, które różnią się ilością lub typem parametrów
 
     void przedstawSie() {
         System.out.println("Nazywam się " + imie + " " + this.nazwisko + " i mam " + wiek + " lat.");
@@ -27,6 +26,10 @@ public class Osoba {
 
     void postarzejSie() {
         wiek++;
+    }
+
+    private void toMojaSprawa() {
+        // To jest metoda prywatna. Ona nie będzie odziedziczona przez podklasy.
     }
 
     @Override

@@ -8,9 +8,10 @@ public class Osoba {
     // Metody instancyjne (czyli nie statyczne) wywołuje się na obiektach.
     // Wewnątrz metod instancyjnych jest dostęp do zmiennych instancyjnych oraz zmiennych statycznych.
     // Osoba odwołuje się do "własnego imienia" itd.
+    // Przed nazwami atrybutów można pisać this. , ale nie trzeba jeśli odwołanie jest jednoznaczne (czyli zmienna nie jest przesłonięta)
 
     void przedstawSie() {
-        System.out.println("Nazywam się " + imie + " " + nazwisko + " i mam " + wiek + " lat.");
+        System.out.println("Nazywam się " + this.imie + " " + nazwisko + " i mam " + wiek + " lat.");
     }
 
     // Metody mogą zwracać wynik:

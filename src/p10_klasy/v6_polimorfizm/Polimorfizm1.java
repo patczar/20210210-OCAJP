@@ -23,7 +23,7 @@ public class Polimorfizm1 {
 		ktos.przedstawSie();
 		System.out.println();
 		
-		ktos = student;
+		ktos = student;  // Student IS-A Osoba
 		ktos.przedstawSie();
 		// Poprzez zmieną typu Osoba mam dostep tylko do tych zmiennych i metod,
 		// które zostały określone w klasie Osoba.

@@ -32,5 +32,8 @@ public class Wypisywanie {
         System.out.println(osoby);
         // Java używam metody toString także gdy obiekty są elementami kolekcji, a
         // wypisujemy kolekcję
+
+        Object o = ala;
+        System.out.println(o);
     }
 }
