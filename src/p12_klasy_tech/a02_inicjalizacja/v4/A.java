@@ -10,8 +10,11 @@ public class A {
 	{
 		System.out.println("init A 1");
 		// w bloku init nie wolno odczytywać zmiennych instancyjnych, które są zadeklarowane później
-		//NK System.out.println(" w init 1 x == " + x); // zle, bo zmienna jest dalej
+		// System.out.println(" w init 1 x == " + x); // zle, bo zmienna jest dalej
 		// System.out.println(y);
+
+		// można to obejść wywołując metodę
+		wypiszX();
 
 		// ale można zapisywać!!!!
 		y = 20;
@@ -19,7 +22,7 @@ public class A {
 		z = 50;
 		//NK System.out.println(z);
 	}
-	
+
 	int x = Utils.przypisz(44);
 	int y = 10;
 	final int z;
@@ -35,4 +38,7 @@ public class A {
 		System.out.println("A(int) " + i);
 	}
 
+	private void wypiszX() {
+		System.out.println("x wynosi " + x);
+	}
 }

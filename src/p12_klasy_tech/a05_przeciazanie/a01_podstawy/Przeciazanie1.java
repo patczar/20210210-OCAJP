@@ -50,6 +50,14 @@ public class Przeciazanie1 {
 //	String print(int arg1, int arg2) {
 //	}
 	
+	// Metody przeciążone mogą różnić się typen wyniku
+	int a(Integer x) {
+		return x.intValue();
+	}
+
+	String[] a(String x) {
+		return new String[] {"Ala","Ola"};
+	}
 
 	public static void main(String[] args) {
 		new Przeciazanie1().run();

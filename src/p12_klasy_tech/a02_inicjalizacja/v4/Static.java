@@ -4,10 +4,10 @@ public class Static {
 
 	static {
 		System.out.println("static 1");
-		//NK System.out.println(" w static 1 x == " + x); // zle, bo zmienna jest dalej
+//		System.out.println(" w static 1 x == " + x); // źle, bo zmienna jest dalej
 	}
 	
-	{ // blok inicjalizacyjny obiektu może odwołać się do zmiennych statycznych
+	{ // blok inicjalizacyjny obiektu może odwołać się do zmiennych statycznych
 		System.out.println(x);
 	}
 	

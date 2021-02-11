@@ -9,6 +9,7 @@ public class Student extends Osoba {
     List<Double> oceny = new ArrayList<>();
 
     public Student() {
+        super();
     }
 
     public Student(String imie, String nazwisko, int wiek, int rok, String kierunek) {

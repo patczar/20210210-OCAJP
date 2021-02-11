@@ -15,6 +15,7 @@ public class KlasaZaawansowana {
 
 //OK Nested1 zagn = this.new Nested1();
 		Nested1 zagn = new Nested1();
+		Nested2.prywatnaZagniezdzona(); // OK, mimo że to klasa zagnieżdżona
 	}
 
 	public void metoda2(KlasaZaawansowana inny) {
@@ -58,10 +59,15 @@ public class KlasaZaawansowana {
 			System.out.println(domyslne);
 			System.out.println(chronione);
 			System.out.println(publiczne);
+			Nested2.prywatnaZagniezdzona(); // OK, mimo że to inna klasa
 		}
 	}
 
 	static class Nested2 {
+		private static void prywatnaZagniezdzona() {
+
+		}
+
 // klasa zagnieżdżona statyczna
 		public void metodaX() {
 			// bo nie jestesmy w zadnym obiekcie = jestesmy w kontekscie statycznym
