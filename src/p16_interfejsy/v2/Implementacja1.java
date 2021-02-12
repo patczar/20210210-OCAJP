@@ -12,9 +12,11 @@ public class Implementacja1 implements Interfejs {
 	public void nowaMetoda() {
 		// będą w implementacji interfejsu można odwoływać się do stałych
 		System.out.println(NAZWA);
-		
+		System.out.println(Interfejs.NAZWA);
+
 		// nie można odwoływać się w ten sposób do metod statycznych
 		//NK powtorz(this, 5);
+		Interfejs.powtorz(this, 5);
 	}
 
 	
@@ -24,6 +26,18 @@ public class Implementacja1 implements Interfejs {
 		obiekt.wypisz(); // zadziała defaultowe wypisz z interfejsu, ale w środku wartosc 1313
 		
 		obiekt.nowaMetoda();
-		
+
+		// Zmienne (stałe) są "dziedziczone" z interfejsu do klasy.
+		System.out.println(obiekt.NAZWA);
+		System.out.println(Implementacja1.NAZWA);
+		System.out.println(Interfejs.NAZWA);
+
+		// Metody statycznie NIE SĄ "dziedziczone" z interfejsu do klasy.
+		// obiekt.powtorz(obiekt, 3);
+		// Implementacja1.powtorz(obiekt, 3);
+		// można ją wywoływać tylko bezpośrednio przez interfejs
+		Interfejs.powtorz(obiekt, 3);
+
+
 	}
 }

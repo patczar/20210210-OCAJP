@@ -1,0 +1,14 @@
+1. Wypisz (i policz ilu jest) pracowników, którzy zarbiają >= 10 tys.
+
+2. Oblicz średnią pensję wszystkich.
+
+3. Oblicz średnią pensję programistów (jobId = Programmer)
+3a. Niech program pyta użytkownika o nazwę stanowiska i liczy średnią pracowników na tym stanowisku.
+
+4. Wypisz dane pracownika, który zarabia najwięcej, i pracownika, który zarabia najmniej (imię, nazwisko, pensja, albo cały obiekt).
+
+5*. Posortuj pracowników malejąco wg pensji...
+
+6. Wypisz bez powtórzeń nazwy miast
+
+7. Dla każdego stanowiska (bez powtórzeń) wypisz ilu pracowników pracuje na tym stanowisku i jaka jest średnia pensja.

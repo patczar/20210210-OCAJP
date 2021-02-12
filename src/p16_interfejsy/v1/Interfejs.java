@@ -31,7 +31,7 @@ public interface Interfejs {
 	// public static final
 	// W praktyce używa się do zapisywania stałych
 	
-	public static final String NAZWA = "ALX";
+	public static final String NAZWA = "Vavatech";
 	
 	// trzeba podać wartość
 	//NK double y;

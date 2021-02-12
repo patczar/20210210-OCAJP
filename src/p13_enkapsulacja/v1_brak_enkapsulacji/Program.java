@@ -25,7 +25,7 @@ public class Program {
 
 
 		// Są też jednak zagrożenia...
-		// Dostęp do tablicy jest też groy, bo program może modyfikować zawartość
+		// Dostęp do tablicy jest też groźny, bo program może modyfikować zawartość
 		for (int i = 0; i < oceny.length; i++) {
 			oceny[i] += 1;
 		}

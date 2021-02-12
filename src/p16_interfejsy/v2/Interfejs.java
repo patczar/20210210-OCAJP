@@ -1,7 +1,7 @@
 package p16_interfejsy.v2;
 
 public interface Interfejs {
-	String NAZWA = "ALX";
+	String NAZWA = "Vavatech";
 	
 	int wartosc();
 	

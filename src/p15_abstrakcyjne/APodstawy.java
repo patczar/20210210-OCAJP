@@ -37,6 +37,21 @@ class A4 extends A2 {
 	}
 }
 
+// jeśli podklasa też jest abstrakcyjna, to nie musi implementować metody abstr. z nadklasy
+abstract class A5 extends A2 {
+
+}
+
+// natomiast gdy ponown ie podane nagłówek tej moetody, musi trzymać się reguł nadpisywania metod, np. nie może zmniejszyć widoczności
+abstract class A6 extends A2 {
+	//OK abstract String abstrakcyjna(int a, int b);
+	//żle private abstract String abstrakcyjna(int a, int b);
+	//źle zmiana typu: abstract int abstrakcyjna(int a, int b);
+
+	public abstract String abstrakcyjna(int a, int b);
+}
+
+
 
 public class APodstawy {
 

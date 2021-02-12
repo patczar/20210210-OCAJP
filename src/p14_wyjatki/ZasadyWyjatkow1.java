@@ -12,7 +12,7 @@ public class ZasadyWyjatkow1 {
 //			 System.out.println("Ala ma kota");
 //			 File f = new File("plik.txt");
 //			 // tu na pewno nie ma IOException
-//		  
+//
 //		 } catch (IOException e) {
 //			 // nie kompiluje się - ale to dotyczy tylko wyjątków "checked"
 //			 System.out.println("wyjątek którego nie ma prawa być");
