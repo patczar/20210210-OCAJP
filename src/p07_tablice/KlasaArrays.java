@@ -16,9 +16,11 @@ public class KlasaArrays {
 		System.out.println(Arrays.toString(napisy));
 		System.out.println();
 		
-		
-		
-		
+		Arrays.fill(liczby, 33);
+		System.out.println(Arrays.toString(liczby));
+
+		Arrays.sort(liczby);
+		System.out.println(Arrays.toString(liczby));
 
 	}
 

@@ -21,7 +21,10 @@ public class Wrappery1_Podstawy {
 		Byte yy1 = new Byte(y);
 		Byte yy2 = Byte.valueOf(y);
 		Byte yy3 = y;
-		
+		//NK Byte yy4 = new Byte(i);
+		//NK Byte yy5 = new Byte(13);
+		//NK Byte yy6 = new Byte((byte)13);
+
 		short s = 10_000;
 		Short ss1 = new Short(s);
 		Short ss2 = Short.valueOf(s);

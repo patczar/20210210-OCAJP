@@ -17,7 +17,7 @@ public class Wrappery5_Null {
 		// Ten program powoduje błędy w czasie wykonania. Oczywiście przerwie się przy pierwszym błędzie.
 		// Jeśli chcesz zobaczyć kolejne kroki, to zakomentuj linie powodujące błędy.
 		
-		Integer x, y;		
+		Integer x, y;
 		x = 55;
 		y = null;
 		

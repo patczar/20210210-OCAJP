@@ -13,10 +13,7 @@ public class Wrappery4_WielkaCiekawostka {
 		y = 200;
 		System.out.println(x == y);
 		System.out.println();
-		
-		
-		
-		
+
 		
 		
 		
@@ -46,6 +43,7 @@ public class Wrappery4_WielkaCiekawostka {
 
 		System.out.println(x == y);
 		System.out.println(x.equals(y));
+		System.out.println(x+0 == y);
 
 	}
 

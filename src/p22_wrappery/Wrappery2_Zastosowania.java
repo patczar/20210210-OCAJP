@@ -13,7 +13,7 @@ public class Wrappery2_Zastosowania {
 		Integer obiekt = Integer.valueOf(liczbaTekstowo);
 		System.out.println(liczba * 2);
 		
-		System.out.printf("Typ %s ma %d bajty, czyli %d bity, minimalna wartość to %d, a maksymalna %d\n",
+		System.out.printf("Typ %s ma %d bajty, czyli %d bity, minimalna wartość to %d, a maksymalna %d\n",
 				Integer.TYPE.getSimpleName(), Integer.BYTES, Integer.SIZE, Integer.MIN_VALUE, Integer.MAX_VALUE);
 		
 		// 2) Obiekt jako "wartość opcjonalna".
