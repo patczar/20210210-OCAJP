@@ -13,6 +13,7 @@ public class Formatowanie5_Pattern {
 
 		df = DateTimeFormatter.ofPattern("dd.MM.YY");
 		System.out.println(teraz.format(df));
+		System.out.println(df.format(teraz));
 
 		df = DateTimeFormatter.ofPattern("dd.MM.YYY");
 		System.out.println(teraz.format(df));

@@ -39,7 +39,8 @@ public class OperacjeNaStringach {
 		System.out.println("\nMetody zwracające zmieniony napis");
 		System.out.println(napis.concat(" i jeszcze psa Reksia"));
 		System.out.println("|"+napis.substring(7, 15)+"|"); // od 7 włącznie, do 15 wyłączając; 15-7 = 8, 8 to jest długość wynikowego słowa
-		System.out.println("|"+napis.substring(7)+"|"); // od 7 do końca 
+		// System.out.println("|"+napis.substring(7, 35)+"|"); // jeśli podamy pozycję spoza napisu, to wyjątek
+		System.out.println("|"+napis.substring(7)+"|"); // od 7 do końca
 
 		System.out.println(napis.toLowerCase());
 		System.out.println(napis.toUpperCase());
